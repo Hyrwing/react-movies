@@ -12,8 +12,8 @@ import NotFound from './components/NotFound';
 //Styles
 import { GlobalStyle } from './GlobalStyle';
 
-const App = () => (
-  <Router className="App">
+const App: React.FC = () => (
+  <Router>
     <Header />
     <Routes>
       <Route path='/' element={<Home />} />
